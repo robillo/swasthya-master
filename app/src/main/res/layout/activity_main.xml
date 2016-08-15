@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="swasthyalehar.swasthya.MainActivity"
+    android:background="#00d2ff"
+    >
+
+    <Button
+        android:id="@+id/signin"
+        android:text="Signin"
+        android:textColor="#EDFFFE"
+        android:textSize="20sp"
+        android:onClick="signin"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/signup"
+        android:text="SignUp"
+        android:textColor="#EDFFFE"
+        android:textSize="20sp"
+        android:onClick="signout"
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@+id/signin"
+        android:layout_alignLeft="@+id/signin"
+        android:layout_alignStart="@+id/signin"
+        android:layout_marginTop="49dp" />
+</RelativeLayout>
